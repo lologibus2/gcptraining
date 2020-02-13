@@ -34,7 +34,7 @@ nake run_locally
 
 Check that :
 - model.joblib file was stored locally
-- You can now check on Google Cloud Storage that you model has been uploaded  
+- Your model has been uploaded to [Storage Bucket](https://console.cloud.google.com/storage/browser?hl=en)
 
 ## Submit Training to GCP
 
@@ -50,15 +50,9 @@ Then run :
 ```bash
 nake gcp_submit_training
 ```
-Check that :
-- You can now check on Google Cloud Storage that you model has been uploaded
 
-## Train model on GCP
+You can now follow your job submission on the command line or on [AI Platform GCP console](https://console.cloud.google.com/ai-platform/jobs?hl=en)  
 
-Visit [https://cloud.google.com/sdk/gcloud/reference/ai-platform/jobs/submit/training](https://cloud.google.com/sdk/gcloud/reference/ai-platform/jobs/submit/training)
+When your job is finished check on Storage Bucket](https://console.cloud.google.com/storage/browser?hl=en) that the new model.joblib has correctly been uploaded
 
-Inspect Makefile, complete environement variables and run
-```bash
-make gcp_submit_training
-```
-# gcptraining
+
