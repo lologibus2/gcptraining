@@ -33,7 +33,7 @@ nake run_locally
 ```
 
 Check that :
-- model.joblib file was stored locally
+- A `model.joblib` file has been stored locally
 - Your model has been uploaded to [Storage Bucket](https://console.cloud.google.com/storage/browser?hl=en)
 
 ## Submit Training to GCP
@@ -53,6 +53,6 @@ nake gcp_submit_training
 
 You can now follow your job submission on the command line or on [AI Platform GCP console](https://console.cloud.google.com/ai-platform/jobs?hl=en)  
 
-When your job is finished check on Storage Bucket](https://console.cloud.google.com/storage/browser?hl=en) that the new model.joblib has correctly been uploaded
+When your job is finished check on your [Storage Bucket](https://console.cloud.google.com/storage/browser?hl=en) that the new `model.joblib` has correctly been uploaded
 
 
