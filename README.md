@@ -1,10 +1,12 @@
 # Objective
 
-Now, your will train your first model on GCP.
-The goal is to build a very simple model for the taxi fare prediction problem and submit a training job to AI platform  
+Train your first model on GCP  
 
-We provide you with the code to run for this simple model
-Steps of TaxiFareModel/trainer.py :
+The goal is to build a very simple model and submit a training job to AI platform  
+
+We provide you with the code to run for this simple model  
+
+Different Steps executed by TaxiFareModel/trainer.py :
 - get sample of training data from Google Cloud Storage Bucket
 - train simple model
 - upload model to Google Cloud Storage
